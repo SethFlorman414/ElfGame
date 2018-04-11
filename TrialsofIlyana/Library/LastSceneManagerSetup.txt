@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Kyle.unity
+- path: Assets/Aria.unity
   isLoaded: 1
   isActive: 1
