@@ -1,6 +1,15 @@
 ﻿
+<<<<<<< HEAD
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrialsofIlyana", "Assembly-CSharp.csproj", "{AA3E10E3-FE5E-5410-4FAF-48F8D4C6A040}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrialsofIlyana", "Assembly-CSharp-Editor.csproj", "{84E19918-D471-1ABA-1FF9-AD1CEF5B50CB}"
+EndProject
+=======
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2017
+>>>>>>> 4c0d5f8bd9d257e4ba87c1dec1ba2aac61783d04
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +19,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal
