@@ -4035,13 +4035,15 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1347510810}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e31280b4328cf2245988e9224f0e037d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_NavMashAgent: {fileID: 1347510812}
   m_Target: {fileID: 1790671229}
+  m_Animator: {fileID: 1347510813}
+  m_CurrentState: 2
 --- !u!195 &1347510812
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -4063,6 +4065,11 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!95 &1347510813 stripped
+Animator:
+  m_PrefabParentObject: {fileID: 9500000, guid: 27624f53096724a48a8bf81d0eee183b,
+    type: 3}
+  m_PrefabInternal: {fileID: 1347510809}
 --- !u!1 &1350105854
 GameObject:
   m_ObjectHideFlags: 0
