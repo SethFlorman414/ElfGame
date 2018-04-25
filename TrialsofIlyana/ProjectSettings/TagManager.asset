@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - OpenDoor
+  - RandomElf
+  - Sword
   layers:
   - Default
   - TransparentFX
