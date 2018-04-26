@@ -117,6 +117,9 @@
     <Compile Include="Assets\Editor Default Resources\UMotionEditor\Scripts\Application\CameraCompatibilityUtility.cs" />
     <Compile Include="Assets\Editor Default Resources\UMotionEditor\Scripts\Application\TimelineClipWrapper.cs" />
     <Compile Include="Assets\Editor Default Resources\UMotionEditor\Scripts\Application\VersionCompatibilityUtility.cs" />
+    <Compile Include="Assets\HorseAI.cs" />
+    <Compile Include="Assets\Models\Dogo1\DogoAI.cs" />
+    <Compile Include="Assets\Models\Dogo2\Dogo2AI.cs" />
     <Compile Include="Assets\OpenDoor.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
@@ -178,6 +181,7 @@
     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
     <Compile Include="Assets\UMotion Examples\Miscellaneous\Scripts\ResetPosition.cs" />
+    <Compile Include="Assets\WanderingAI.cs" />
     <None Include="Assets\PostProcessing\Resources\Shaders\DepthOfField.shader" />
     <None Include="Assets\ProCore\ProBuilder\Shader\pb_TransparentOverlay.shader" />
     <None Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\README.txt" />
@@ -240,7 +244,7 @@
     <None Include="Assets\ProCore\ProBuilder\Shader\pb_VertexShader.shader" />
     <None Include="Assets\ProCore\ProBuilder\Shader\pb_NormalPreview.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\Bloom.shader" />
-    <None Include="Assets\Horse\SoftAlpha.shader" />
+    <None Include="Assets\Models\Horse\SoftAlpha.shader" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\VectorscopeRender.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\EyeAdaptation.shader" />
     <None Include="Assets\ProCore\ProBuilder\Shader\pb_ScrollHighlight.shader" />
