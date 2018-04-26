@@ -17,10 +17,10 @@ public class OpenDoor : MonoBehaviour {
 		
 	}
 
-    public void OnTriggerEnter(Collision collision)
+    public void OnTriggerEnter(Collider collide)
     {
 
-        if(collision.gameObject.tag == "Player")
+        if (collide.gameObject.tag == "Player")
         {
 
             door.SetBool("Open", true);
