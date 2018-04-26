@@ -9,6 +9,7 @@ public class AI_Controller : MonoBehaviour {
 
     // Use this for initialization
 
+        
     [Header("NavMesh Settings / Target")]
     [SerializeField] private NavMeshAgent m_NavMashAgent;
     [SerializeField] private GameObject m_Target;
