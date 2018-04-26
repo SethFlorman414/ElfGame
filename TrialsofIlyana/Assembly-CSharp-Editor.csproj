@@ -193,11 +193,11 @@
     <Compile Include="Assets\ProCore\ProBuilder\Editor\pb_MissingScriptEditor.cs" />
     <Compile Include="Assets\ProCore\ProBuilder\Editor\pb_Preferences.cs" />
     <Compile Include="Assets\ProCore\ProBuilder\Editor\pb_ScenePostProcessor.cs" />
-    <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/18.harland.busserl/Desktop/ElfGame/TrialsofIlyana/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/18.harland.busserl/Desktop/ElfGame/TrialsofIlyana/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/18.harland.busserl/Desktop/Repositories/ElfGame/TrialsofIlyana/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.StandardEvents">
+      <HintPath>C:/Users/18.harland.busserl/Desktop/Repositories/ElfGame/TrialsofIlyana/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity 2018.1.0b13/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -437,28 +437,28 @@
       <HintPath>C:/Program Files/Unity 2018.1.0b13/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="UMotionApplication">
-      <HintPath>C:/Users/18.harland.busserl/Desktop/ElfGame/TrialsofIlyana/Assets/Editor Default Resources/UMotionEditor/Plugins/Application/UMotionApplication.dll</HintPath>
+      <HintPath>C:/Users/18.harland.busserl/Desktop/Repositories/ElfGame/TrialsofIlyana/Assets/Editor Default Resources/UMotionEditor/Plugins/Application/UMotionApplication.dll</HintPath>
     </Reference>
     <Reference Include="UMotionEditor">
-      <HintPath>C:/Users/18.harland.busserl/Desktop/ElfGame/TrialsofIlyana/Assets/Editor Default Resources/UMotionEditor/Plugins/Editor/UMotionEditor.dll</HintPath>
+      <HintPath>C:/Users/18.harland.busserl/Desktop/Repositories/ElfGame/TrialsofIlyana/Assets/Editor Default Resources/UMotionEditor/Plugins/Editor/UMotionEditor.dll</HintPath>
     </Reference>
     <Reference Include="ProBuilderCore-Unity5">
-      <HintPath>C:/Users/18.harland.busserl/Desktop/ElfGame/TrialsofIlyana/Assets/ProCore/ProBuilder/Classes/ProBuilderCore-Unity5.dll</HintPath>
+      <HintPath>C:/Users/18.harland.busserl/Desktop/Repositories/ElfGame/TrialsofIlyana/Assets/ProCore/ProBuilder/Classes/ProBuilderCore-Unity5.dll</HintPath>
     </Reference>
     <Reference Include="ProBuilderMeshOps-Unity5">
-      <HintPath>C:/Users/18.harland.busserl/Desktop/ElfGame/TrialsofIlyana/Assets/ProCore/ProBuilder/Classes/ProBuilderMeshOps-Unity5.dll</HintPath>
+      <HintPath>C:/Users/18.harland.busserl/Desktop/Repositories/ElfGame/TrialsofIlyana/Assets/ProCore/ProBuilder/Classes/ProBuilderMeshOps-Unity5.dll</HintPath>
     </Reference>
     <Reference Include="KdTreeLib">
-      <HintPath>C:/Users/18.harland.busserl/Desktop/ElfGame/TrialsofIlyana/Assets/ProCore/ProBuilder/Classes/ClassesLib/KdTreeLib.dll</HintPath>
+      <HintPath>C:/Users/18.harland.busserl/Desktop/Repositories/ElfGame/TrialsofIlyana/Assets/ProCore/ProBuilder/Classes/ClassesLib/KdTreeLib.dll</HintPath>
     </Reference>
     <Reference Include="pb_Stl">
-      <HintPath>C:/Users/18.harland.busserl/Desktop/ElfGame/TrialsofIlyana/Assets/ProCore/ProBuilder/Classes/ClassesLib/pb_Stl.dll</HintPath>
+      <HintPath>C:/Users/18.harland.busserl/Desktop/Repositories/ElfGame/TrialsofIlyana/Assets/ProCore/ProBuilder/Classes/ClassesLib/pb_Stl.dll</HintPath>
     </Reference>
     <Reference Include="Poly2Tri">
-      <HintPath>C:/Users/18.harland.busserl/Desktop/ElfGame/TrialsofIlyana/Assets/ProCore/ProBuilder/Classes/ClassesLib/Poly2Tri.dll</HintPath>
+      <HintPath>C:/Users/18.harland.busserl/Desktop/Repositories/ElfGame/TrialsofIlyana/Assets/ProCore/ProBuilder/Classes/ClassesLib/Poly2Tri.dll</HintPath>
     </Reference>
     <Reference Include="ProBuilderEditor-Unity5">
-      <HintPath>C:/Users/18.harland.busserl/Desktop/ElfGame/TrialsofIlyana/Assets/ProCore/ProBuilder/Editor/ProBuilderEditor-Unity5.dll</HintPath>
+      <HintPath>C:/Users/18.harland.busserl/Desktop/Repositories/ElfGame/TrialsofIlyana/Assets/ProCore/ProBuilder/Editor/ProBuilderEditor-Unity5.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Advertisements">
       <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.4/UnityEngine.Advertisements.dll</HintPath>
