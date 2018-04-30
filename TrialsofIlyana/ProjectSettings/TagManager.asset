@@ -9,6 +9,7 @@ TagManager:
   - Sword
   - Horse
   - Enemy
+  - Bow
   layers:
   - Default
   - TransparentFX

@@ -118,6 +118,7 @@
     <Compile Include="Assets\Editor Default Resources\UMotionEditor\Scripts\Application\TimelineClipWrapper.cs" />
     <Compile Include="Assets\Editor Default Resources\UMotionEditor\Scripts\Application\VersionCompatibilityUtility.cs" />
     <Compile Include="Assets\EnemyHealth.cs" />
+    <Compile Include="Assets\GetBow.cs" />
     <Compile Include="Assets\Models\Dogo1\DogoAI.cs" />
     <Compile Include="Assets\Models\Dogo2\Dogo2AI.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
