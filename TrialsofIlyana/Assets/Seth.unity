@@ -1130,6 +1130,11 @@ Prefab:
     - target: {fileID: 54130112983231696, guid: fc50a6729d7b78e4fa164141abd22946,
         type: 2}
       propertyPath: m_Constraints
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 54130112983231696, guid: fc50a6729d7b78e4fa164141abd22946,
+        type: 2}
+      propertyPath: m_IsKinematic
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
