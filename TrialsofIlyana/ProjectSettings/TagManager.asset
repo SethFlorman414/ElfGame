@@ -10,6 +10,8 @@ TagManager:
   - Horse
   - Enemy
   - Bow
+  - PurpleCrystal
+  - Gold
   layers:
   - Default
   - TransparentFX
