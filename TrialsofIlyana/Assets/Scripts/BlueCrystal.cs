@@ -8,6 +8,9 @@ public class BlueCrystal : MonoBehaviour {
     // Use this for initialization
 
     int blueCrystal;
+    public float timer;
+    public Text text;
+
     void Start () {
         blueCrystal = PlayerPrefs.GetInt("Crystal");
     }
@@ -16,7 +19,23 @@ public class BlueCrystal : MonoBehaviour {
 	void Update () {
 
         blueCrystal = PlayerPrefs.GetInt("BlueCrystal");
-        GetComponent<Text>().text = "Purple Crystal: " + blueCrystal;
+        GetComponent<Text>().text = "Blue Crystal: " + blueCrystal;
+
+        if (PlayerPrefs.GetInt("BlueCrystal") >= 1)
+        {
+            GetComponent<Text>().text = "Acquired Blue Crystal";
+
+
+        }
+
+        timer += Time.deltaTime;
+        if(timer >= 30.0f && PlayerPrefs.GetInt("BlueCrystal") >= 1)
+        {
+
+            text.GetComponent<Text>().enabled = false;
+            timer = 0;
+
+        }
 
     }
 }

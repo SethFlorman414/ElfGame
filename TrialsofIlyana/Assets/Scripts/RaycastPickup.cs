@@ -6,11 +6,15 @@ public class RaycastPickup : MonoBehaviour {
 
 	// Use this for initialization
 	public int purpleCrystal = 0;
+    public int blueCrystal;
+    public int whiteCrystal;
     
 
 	void Start () {
 		PlayerPrefs.SetInt ("Crystal", purpleCrystal);
-        
+        PlayerPrefs.SetInt("BlueCrystal", blueCrystal);
+        PlayerPrefs.SetInt("WhiteCrystal", whiteCrystal);
+
 
     }
 	
@@ -39,9 +43,54 @@ public class RaycastPickup : MonoBehaviour {
 
 				}
 
+                
+
 			}
 
 		}
 
-	}
+        if(pickup.collider.tag == "BlueCrystal")
+        {
+
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                
+                blueCrystal += 1;
+
+                PlayerPrefs.SetInt("BlueCrystal", blueCrystal);
+
+
+                Destroy(pickup.collider.gameObject);
+
+            }
+
+        }
+
+        if (pickup.collider.tag == "WhiteCrystal")
+        {
+
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+
+                whiteCrystal += 1;
+
+                PlayerPrefs.SetInt("WhiteCrystal", whiteCrystal);
+
+
+                Destroy(pickup.collider.gameObject);
+
+            }
+
+        }
+
+
+    }
+
+    public void PlaceCrystals()
+    {
+
+
+
+    }
+
 }

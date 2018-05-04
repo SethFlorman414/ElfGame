@@ -12,6 +12,9 @@ TagManager:
   - Bow
   - PurpleCrystal
   - Gold
+  - BlueCrystal
+  - WhiteCrystal
+  - Pedestal
   layers:
   - Default
   - TransparentFX
