@@ -661,7 +661,7 @@ PlayerSettings:
   cloudServicesEnabled:
     UNet: 1
   facebookSdkVersion: 7.9.4
-  apiCompatibilityLevel: 3
+  apiCompatibilityLevel: 2
   cloudProjectId: a388b5c3-7e64-41b8-9154-72b4de23c0ba
   projectName: TrialsofIlyana
   organizationId: plankda2x4
